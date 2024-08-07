@@ -30,7 +30,7 @@ let isKeydown = false;
 let key = "";
 class Bar {
 	constructor() {
-		this.h = Math.floor((Math.random() * h) / 1.5) + 200;
+		this.h = Math.floor((Math.random() * h) / 1.5);
 		this.y = h - this.h;
 		this.x = Math.floor(Math.random() * (w - 50)) + w / 2;
 		this.color = `hsl(${Math.floor(Math.random() * 360)},50%,50%)`;
